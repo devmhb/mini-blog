@@ -1,0 +1,33 @@
+.card-container {
+    flex: 1 20rem;
+    background-color: rgb(31, 59, 90);
+    color: white;
+    text-align: center;
+    margin:0 auto;
+}
+
+.card-container img {
+    max-width: 100%;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+ .title{
+     color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.btn-container{
+    text-align: right;
+    padding: 1rem 2rem;
+}
+button{
+    text-align: right;
+    background-color: transparent;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgb(155, 38, 3);
+    border: none;
+    cursor: pointer;
+}
