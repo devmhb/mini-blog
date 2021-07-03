@@ -6,7 +6,10 @@ import datas from '../../data'
 
 const BCard = () => {
     let {id} = useParams();
-    const sData = datas.find((item) => item.id == id)
+    let result = + id
+
+
+    const sData = datas.find((item) => item.id === result)
    
     return (
         <div className="Bcards-container">
